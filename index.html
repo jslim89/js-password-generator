@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="password-generator.js"></script>
+        <script>
+            function generatePass() {
+                var passGen = new PasswordGenerator({
+                    number: true,
+                    lowercase: true,
+                    uppercase: true,
+                    symbol: true,
+                    lengthType: 'length',
+                    length: 10,
+                });
+                document.getElementById('pass').value = passGen.generate();
+            }
+        </script>
+    </head>
+    <body>
+        <input type="text" id="pass" style="width: 300px"/>
+        <button onclick="generatePass();">Generate password</button>
+    </body>
+</html>
