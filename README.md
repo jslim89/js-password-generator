@@ -35,7 +35,7 @@ You can see the example [index.html](index.html)
 | `number`     |   `true`   | Include number [0-9]                                                                   |
 | `lowercase`  |   `true`   | Include lower case alphabet [a-z]                                                      |
 | `uppercase`  |   `true`   | Include uppercase alphabet [A-Z]                                                       |
-| `symbol`     |   `false`  | Include these symbols (``!"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~``)                          |
+| `symbol`     |   `false`  | Include these symbols (`` !"#$%&'()*+,-./:;<=>?@[\\]^_`{\|}~ ``)                       |
 | `space`      |   `false`  | Include <space>                                                                        |
 | `custom`     |   `false`  | If you want to add some other characters other than above, specify here. E.g. `'你好'` |
 | `lengthType` | `'length'` | Accept 'length' _(number of characters)_ & 'entropy' _(in bit)_                        |
